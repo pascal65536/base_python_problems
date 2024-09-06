@@ -10,7 +10,8 @@ def generate(count=10):
     return random_lst
 
 
-ret = generate()
-print(ret)
-ret = generate(20)
-print(ret)
+if __name__ == "__main__":
+    ret = generate()
+    print(ret)
+    ret = generate(20)
+    print(ret)

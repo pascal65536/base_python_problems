@@ -10,6 +10,7 @@ def print_rectangle(fill_char, height, width):
     return "Ok"
 
 
-# ------------------------------------------------------------------
-ret = print_rectangle("0", 2, 90)
-print(ret)
+if __name__ == "__main__":
+    # ------------------------------------------------------------------
+    ret = print_rectangle("0", 4, 6)
+    print(ret)

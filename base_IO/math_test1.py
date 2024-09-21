@@ -1,3 +1,4 @@
+import random
 
 s2 = random.randint(1, 10)
 solution = random.randint(1, 20)

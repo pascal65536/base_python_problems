@@ -15,3 +15,5 @@ goto(0, -100)
 goto(100, 0)
 hideturtle()
 done()
+
+# stop!

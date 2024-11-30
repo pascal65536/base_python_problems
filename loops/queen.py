@@ -1,5 +1,6 @@
 import random
 
+
 N = 0
 M = 20
 queen_x = random.randint(N, M)

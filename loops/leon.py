@@ -1,5 +1,6 @@
 import random
 
+
 secret = random.randint(0, 100)
 counter = 0
 

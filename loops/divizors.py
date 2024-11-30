@@ -1,6 +1,5 @@
-# Проверка числа на простоту. Поиск натуральных делителей
-
 import time
+
 
 num = int(input("Enter number: "))
 max_divizors = num // 2

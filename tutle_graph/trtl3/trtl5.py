@@ -1,0 +1,11 @@
+import turtle
+window = turtle.Screen()
+t = turtle.Turtle()
+t.speed(0)
+t.penup()   
+t.goto(200, 200)  
+t.pendown()       
+t.pencolor("black")
+t.write("12345", align="center", font=("Arial", 24, "normal"))
+t.hideturtle()
+turtle.done()

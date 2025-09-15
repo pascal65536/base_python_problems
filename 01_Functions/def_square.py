@@ -11,6 +11,5 @@ def print_rectangle(fill_char, height, width):
 
 
 if __name__ == "__main__":
-    # ------------------------------------------------------------------
     ret = print_rectangle("0", 4, 6)
     print(ret)

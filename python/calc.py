@@ -1,8 +1,4 @@
-def age_movie(age):
-    if age < 14:
-        print("Нет")
-    else:
-        print("Да")
+
 
 
 def age_movie(age):

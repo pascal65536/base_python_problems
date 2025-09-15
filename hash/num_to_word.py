@@ -1,4 +1,5 @@
 user_str = input("Введите число 0..9: ")
+
 if user_str == "0":
     print("Нуль")
 elif user_str == "1":

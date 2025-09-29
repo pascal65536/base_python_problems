@@ -1,0 +1,35 @@
+{
+  "library": {
+    "name": "Центральная библиотека",
+    "sections": [
+      {
+        "section": "Наука",
+        "books": [
+          {
+            "title": "Физика для начинающих",
+            "authors": ["Иванов И.", "Петров П."],
+            "year": 2010,
+            "copies": [
+              {"id": 101, "status": "available"},
+              {"id": 102, "status": "borrowed"}
+            ]
+          },
+          {
+            "title": "Математика",
+            "authors": ["Сидоров С."],
+            "year": 2015,
+            "copies": [
+              {"id": 103, "status": "available"}
+            ]
+          }
+        ]
+      },
+      {
+        "section": "Художественная литература",
+        "books": [
+          {"title": "Война и мир", "authors": ["Толстой Л.Н."], "year": 1869, "copies": [{"id": 201, "status": "available"}]}
+        ]
+      }
+    ]
+  }
+}

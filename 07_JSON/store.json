@@ -1,0 +1,14 @@
+{
+  "user": {
+    "id": 123,
+    "name": "Алексей",
+    "contacts": {
+      "email": "alex@example.com",
+      "phones": ["+79991234567", "+79997654321"]
+    }
+  },
+  "orders": [
+    {"id": 1, "item": "Книга", "quantity": 2},
+    {"id": 2, "item": "Ручка", "quantity": 10}
+  ]
+}

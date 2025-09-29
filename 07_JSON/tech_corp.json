@@ -1,0 +1,25 @@
+{
+  "company": {
+    "name": "TechCorp",
+    "departments": [
+      {
+        "name": "Разработка",
+        "teams": [
+          {
+            "name": "Backend",
+            "members": [
+              {"name": "Елена", "role": "Senior Developer"},
+              {"name": "Игорь", "role": "Junior Developer"}
+            ]
+          },
+          {
+            "name": "Frontend",
+            "members": [
+              {"name": "Сергей", "role": "Lead Developer"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

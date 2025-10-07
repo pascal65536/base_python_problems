@@ -1,0 +1,45 @@
+<p>Вот распознанный текст с изображения:</p>
+<hr />
+<p><strong>ОШИБКИ ЧЕЛОВЕКА</strong></p>
+<ul>
+<li>Ошибки проектирования  </li>
+<li>Операторские ошибки  </li>
+<li>Ошибки изготовления  </li>
+<li>Ошибки технического обслуживания  </li>
+<li>Внесенные ошибки  </li>
+<li>Ошибки контроля  </li>
+<li>Ошибки организации рабочего места  </li>
+<li>Ошибки управления коллективом</li>
+</ul>
+<hr />
+<p>Текст представляет собой перечень типов ошибок, связанных с человеческим фактором в различных сферах деятельности — от проектирования и производства до эксплуатации и управления.</p>
+<p>Нужно ли сохранять подсветку синтаксиса в выводе, зависит от целей и контекста использования HTML-страницы.</p>
+<h3>Зачем сохранять подсветку синтаксиса</h3>
+<ul>
+<li>Подсветка улучшает читаемость кода, помогая быстрее различать ключевые слова, строки, комментарии и прочие элементы.</li>
+<li>Это полезно для демонстраций, документации, учебных материалов и блогов с примерами кода.</li>
+<li>Современные веб-среды и статические сайты обычно включают CSS для подсветки благодаря таким расширениям как <code>codehilite</code>.</li>
+</ul>
+<h3>Когда подсветку можно не сохранять</h3>
+<ul>
+<li>Если HTML-страница предназначена для последующей автоматической обработки, где цвета не важны.</li>
+<li>В случаях, когда важна максимальная простота HTML или минимальный объем.</li>
+<li>Если пользовательский интерфейс уже содержит собственную подсветку синтаксиса на стороне клиента (например, через JavaScript-библиотеки вроде Prism или Highlight.js).</li>
+</ul>
+<h3>Как включить подсветку в Python-Markdown</h3>
+<p>Включается расширение <code>codehilite</code>, которое добавляет CSS-классы к элементам кода:</p>
+<div class="codehilite"><pre><span></span><code><span class="n">html</span> <span class="o">=</span> <span class="n">markdown</span><span class="o">.</span><span class="n">markdown</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">extensions</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;fenced_code&#39;</span><span class="p">,</span> <span class="s1">&#39;codehilite&#39;</span><span class="p">])</span>
+</code></pre></div>
+
+<p>Чтобы подсветка была видимой, нужно добавить подходящий CSS стиль на страницу.</p>
+<h3>Итог</h3>
+<p>Если нужно красиво и удобно отображать код в HTML (например, на сайте с документацией), подсветку стоит сохранять. Если важна простота или последующая кастомизация, можно обойтись без нее. Выбор всегда зависит от задач и аудитории.[1][9]</p>
+<p><a href="https://habr.com/ru/articles/948852/">1</a>
+<a href="https://itshaman.ru/articles/5652/kak-ispolzovat-podsvetku-sintaksisa-v-redaktore-nano">2</a>
+<a href="https://www.reddit.com/r/SQL/comments/1mn0rks/highlighted_syntax/">3</a>
+<a href="https://ru.stackoverflow.com/questions/517853/%D0%AD%D0%BA%D1%80%D0%B0%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4-%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D0%BE%D0%BC-%D0%B8%D0%BB%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4-%D1%81%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC">4</a>
+<a href="https://forum.ixbt.com/topic.cgi?id=26%3A32886">5</a>
+<a href="https://www.reddit.com/r/OpenAI/comments/100dc7k/disable_code_block_syntax_highlighting/">6</a>
+<a href="https://r4ven.me/it-razdel/poleznoe-po/bat-exa-podsvetka-sintaksisa-standartnogo-vyvoda-v-terminale-linux-cat-less-tail-i-ls/">7</a>
+<a href="https://www.linux.org.ru/forum/desktop/16930292">8</a>
+<a href="https://sky.pro/media/kak-ispolzovat-python-dlya-raboty-s-markdown/">9</a></p>
